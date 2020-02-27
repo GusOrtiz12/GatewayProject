@@ -1,0 +1,291 @@
+/*Index, Contact, and I.T Pages*/
+/* hero image */
+.hero-image{
+  height: 1100px;
+  overflow: hidden;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hero-text h1{
+  border: 6px solid black;
+  font-size: 72px;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+.hero-text span{
+  padding: 10px 24px;
+  display: inline-block;
+}
+/* welcome to paradise class */
+.des{
+  margin: 20px;
+  display: block;
+  font-size:20px;
+  text-shadow: 0 0 10px white;
+}
+.btn{
+  color: #313131;
+  padding: 10px 24px;
+  font-size: 20px;
+  text-decoration: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+.btn:hover{
+  opacity: 0.3;
+  color: blue;
+}
+.h1-1{
+  text-align:center;
+}
+/* header */
+.ul-1{
+  list-style: none;
+  text-align:center;
+}
+/* footer */
+.ul-2{
+  list-style: none;
+  text-align: center;
+  font-size: 8px;
+}
+/* header class for horizontal view */
+.li{
+  display: inline;
+  font-size:200%;
+  margin:20px;
+}
+/* navigation bar class */
+.nav{
+  text-align: center;
+  margin: 20px 10px 10px;
+  padding: 10px 0;
+  display:block;
+  overflow:visible;
+}
+/* header class for decoration */
+.a{
+  color:black;
+  text-decoration: none;
+  display: inline-block;
+}
+/* anchor tags class, decoration */
+.b{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+/* class for kryonix color*/
+.c{
+  display:inline-block;
+  color: black;
+  text-decoration: none;
+}
+/* container class for boxes */
+.container1{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+.container1 div{
+  border:1px #ccc solid;
+  padding: 10px;
+}
+.box1{
+  flex:1;
+  order:5;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  position: relative;
+  text-align:center;
+  margin-left:430px;
+  margin-right:-450px;
+  align-items: flex-end;
+  background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url(https://3j0grh44ocny4a6kcn288izx-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/yunque-950x530.jpg);
+  background-size: cover;
+  background-position: 30% 80%;
+}
+.box2{
+  flex:1;
+  order:2;
+  margin:10px;
+  text-align:center;
+  color: white;
+  margin-left:430px;
+  margin-right:-450px;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url(https://i.redd.it/sx0fq0u0vdl21.jpg);
+  background-size: cover;
+  background-position: 20% 55%;
+}
+.box3{
+  flex:1;
+  order:2;
+  margin:10px;
+  text-align:center;
+  color: white;
+  margin-left:430px;
+  margin-right:-450px;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url(https://rvca738f6h5tbwmj3mxylox3-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/VConners_Vieques2.jpg);
+  background-size: cover;
+  background-position: 20% 55%;
+}
+.box4{
+  flex:1;
+  order:2;
+  margin:10px;
+  position: relative;
+  text-align:center;
+  color: white;
+  margin-left:430px;
+  margin-right:-450px;
+  align-items: flex-end;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url(https://i.pinimg.com/474x/33/0b/09/330b0944cc34e8e740a2d4bcc00672f0--flamenco-rock-formations.jpg );
+  background-size: cover;
+  background-position: 10% 50%;
+}
+.box6{
+  flex:1;
+  order:2;
+  margin:20px;
+  text-align:center;
+  text-shadow: 1px 0px;
+  margin-left:450px;
+  margin-right:-375px;
+  background-image: linear-gradient(rgba(255,255,255,0.01),rgba(255,255,255,0.95));
+  background-size: contain;
+  background-color: blue;
+}
+.box7{
+  flex:1;
+  order:2;
+  margin:20px;
+  text-shadow: 1px 0px;
+  background-image: linear-gradient(rgba(255,255,255,0.01),rgba(255,255,255,0.95)), url(https://assets.fontsinuse.com/static/use-media-items/83/82252/full-2600x1200/5c49bd5f/RV-Logotype.png?resolution=0);
+  text-align:center;
+  margin-left:450px;
+  margin-right:-375px;
+  background-size: 92px;
+  background-color: black;
+  color: black;
+}
+.box8{
+  flex:1;
+  order:2;
+  margin:20px;
+  text-shadow: 1px 0px;
+  background-image: linear-gradient(rgba(255,255,255,.1),rgba(255,255,255,.5)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrjxNSdz3oiyORpRppX3vaSfcV_KCcFPGz-Y8XqvHuui-8vKpkcw&s);
+  text-align:center;
+  margin-left:450px;
+  margin-right:-375px;
+}
+.box9{
+  flex:1;
+  order:2;
+  text-align:center;
+  text-shadow: 1px 0px;
+  background-image: linear-gradient(rgba(255,255,255, 0.01),rgba(255,255,255,0.95)), url(https://prcomputer.net/wp-content/uploads/2019/10/prc-logo-small-since.png);
+  margin-left:450px;
+  margin-right:-375px;
+}
+.container1{
+  width: 40%;
+}
+.footer1{
+  left:0;
+  right:0;
+  width:100%;
+  margin-top: 120px;
+  background-color:rgb(255, 224, 179);
+  text-align:center;
+  height:19vh;
+  position:absolute;
+}
+.footer2{
+  width:100%;
+  background-color:rgb(255, 224, 179);
+  text-align:center;
+  height:17vh;
+  margin: 395px 0px 0px 0px;
+}
+.footer12{
+  width:100%;
+  background-color:rgb(255, 224, 179);
+  text-align: center;
+  height: 14vh;
+}
+footer {
+  background:#363b3f;
+ }
+footer p {
+  font-size:12px;
+  text-align:center;
+}
+footer ul {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+}
+footer li {
+    display: inline-block;
+    margin: 4px;
+}
+footer li a {
+    display: block;
+    text-decoration: none;
+    border-bottom: medium none;
+    padding: 10px;
+    border-radius: 3px 12px;
+    transition: all 0.3s ease-in 0s, all 1s ease 0s;
+    background: #444749;
+}
+footer .facebook:hover {
+  background-color:#365397;
+}
+footer .twitter:hover {
+  background-color:#00a9f1;
+}
+footer .instagram:hover {
+  background-color:#396d9a;
+}
+/*contact page */
+.form1{ 
+  border: 3px solid black;
+  background-color:rgb(255, 224, 179);
+  width: 500px;
+  display: block;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 125px;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.form1 button , .form1 input{
+  width:100%;
+  height: 23px;
+}
+/* full page body */
+body,html{
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  font-family: sans-serif;
+}
+textarea{
+  margin-top:10px;
+  height: 110px;
+  width:100%;
+}
